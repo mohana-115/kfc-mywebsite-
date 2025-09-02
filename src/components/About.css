@@ -1,0 +1,92 @@
+.about {
+  padding: 20px;
+  text-align: center;
+  background-color: #fff5e6;
+}
+
+.about h1 {
+  font-size: 32px;
+  color: #e4002b;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Section Styling */
+.about-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+  font-size: 24px;
+  color: #e4002b;
+  margin-bottom: 15px;
+}
+
+/* Image Styling */
+.about-img {
+  width: 50%;
+  max-height: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Initiatives Section */
+.initiatives {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.initiative {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.initiative:hover {
+  transform: scale(1.05);
+}
+
+.initiative img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.initiative h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.initiative p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-img {
+    width: 100%;
+  }
+
+  .initiatives {
+    grid-template-columns: 1fr;
+  }
+}
+

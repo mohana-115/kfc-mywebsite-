@@ -1,0 +1,81 @@
+.home {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #e4002b;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Carousel Row Styles */
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.row {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+/* Item Styles */
+.item {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
+
+/* Text Below Image */
+.item p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style for Carousel Rows */
+.home .carousel.row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.home .carousel img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.home .carousel img:hover {
+  transform: scale(1.1);
+}
